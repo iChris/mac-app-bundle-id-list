@@ -1,15 +1,15 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "macOS Bundle ID List",
+  "url": "https://macbundleid.lemonproductions.ca/",
+  "description": "A list of macOS app Bundle Idenitifiers",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Trying to maintain an archive of macOS Bundle ID to help people unlock permissions under macOS.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "id": "https://macbundleid.lemonproductions.ca/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Chris Enns",
+    "email": "contact@lemonproductions.ca"
   }
 }

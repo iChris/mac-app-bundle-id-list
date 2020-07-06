@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <!-- Fathom - beautiful, simple website analytics -->
+<script src="https://cdn.usefathom.com/script.js" site="LYYYGIUM" defer></script>
+<!-- / Fathom -->
   </head>
   <body>
     <header>
@@ -22,15 +25,23 @@
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      <div class="warning">
-        <ol>
-          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
-          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
-        </ol>
-        <p><em>This is an <a href="https://www.11ty.io/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-      </div>
 
+      <div class="warning">
+      <h4>Before You Yell at Me:</h4>
+          <p>This <strong>isn't</strong> an exhaustive list!</p>
+      <h4>Requesting a bundle ID:</h4> 
+          <p>If you have a macOS app's bundle ID you can't figure out, you can <ul>
+            <li><a href="https://www.lemonproductions.ca/contact/">Contact me here</a> and ask nicely please!</li>
+            <li><a href="https://github.com/iChris/mac-app-bundle-id-list/issues/new">File an issue on the GitHub repo</a> if you're able</li>
+          </ul>
+      <h4>Adding to the List</h4>
+      If you'd like to add to the list, feel free to:
+        <ul>
+          <li><a href="https://github.com/iChris/mac-app-bundle-id-list/issues/new">File an issue on the GitHub repo if you're able</a></li>
+          <li><a href="https://twitter.com/ichris">Send me a tweet with the details</a></li>
+          <li><a href="https://www.lemonproductions.ca/contact/">Contact me here</a>.</li>
+        </ul>
+      </div>
       {{ content | safe }}
     </main>
 

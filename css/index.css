@@ -51,6 +51,10 @@ header:after {
   display: table;
   clear: both;
 }
+
+h2, h3 {
+  padding-top: 1em;
+}
 table {
   margin: 1em 0;
 }

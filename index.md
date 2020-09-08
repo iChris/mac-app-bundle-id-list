@@ -19,6 +19,7 @@ eleventyNavigation:
 | [Forecast](https://overcast.fm/forecast) | `fm.overcast.forecast-encoder`|
 | League of Legends | `com.riotgames.leagueoflegends` |
 | Logic Pro X  | `com.apple.logic10`  |
+| Steam (Valve) | `com.valvesoftware.steam` |
 
 ### How to Find an App's Bundle Identifier
 

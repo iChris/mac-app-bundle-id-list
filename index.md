@@ -13,10 +13,12 @@ eleventyNavigation:
 | Audacity  |  `org.audacityteam.audacity` |
 | [Audio Hijack](https://rogueamoeba.com/audiohijack/) | `com.rogueamoeba.audiohijack3` |
 | Auphonic Multitrack | `com.auphonic.mac.multitrack` |
+| [Blizzard's Battle.net](https://www.blizzard.com/) | `net.battle.bootstrapper`|
 | [Discord](https://discord.com/)  | `com.hnc.Discord`  |
 | [Ecamm Live](https://www.ecamm.com/mac/ecammlive/?fp_ref=ichris) | `com.ecamm.EcammLive` |
 | Farrago | `com.rogueamoeba.farrago` |
 | [Forecast](https://overcast.fm/forecast) | `fm.overcast.forecast-encoder`|
+| [Heroes of the Storm](https://heroesofthestorm.com/) | `com.blizzard.heroesofthestorm`|
 | League of Legends | `com.riotgames.leagueoflegends` |
 | Logic Pro X  | `com.apple.logic10`  |
 | Minecraft | `com.mojang.minecraftlauncher` |
